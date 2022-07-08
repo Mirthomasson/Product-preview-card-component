@@ -94,13 +94,13 @@ button {
     border: none;
     cursor: pointer;
     border-radius: .5em;
-    padding: .8em 2em;
     text-align: center;
     margin: .5em auto;
     font-size: 11px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin-bottom: -.25em;
+    padding: 1.75em;
 }
 
 svg {
@@ -125,6 +125,7 @@ svg {
         margin: 12em 21em;
         height: 30em;
         width: auto;
+        max-width: 51em;
     }
 
     .container-img {
