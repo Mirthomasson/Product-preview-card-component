@@ -9,6 +9,7 @@
 
 body {
     background-color: hsl(30, 38%, 92%);
+    margin: 0 auto;
 }
 
 .flex-container {
@@ -33,7 +34,6 @@ body {
     background-color: hsl(0, 0%, 100%);
     height: auto;
     width: 85%;
-    margin: 0 1em;
     padding: 1.5em;
     border-radius: 0 0 .75em .75em;
 }
@@ -65,15 +65,15 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: left;
-    margin-bottom: -3.5em;
+    margin: 30px auto;
 }
 
 .new-price {
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
     font-size: 32px;
-    margin: 2em .8em;
     margin-left: 0;
+    margin-right: .25em;
 }
 
 .old-price {
@@ -95,12 +95,16 @@ button {
     cursor: pointer;
     border-radius: .5em;
     text-align: center;
-    margin: .5em auto;
     font-size: 11px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    margin-bottom: -.25em;
     padding: 1.75em;
+    transition: ease .5s;
+}
+
+button:hover {
+    background-color: hsl(159, 36%, 28%);
+    transition: ease .5s;
 }
 
 svg {
